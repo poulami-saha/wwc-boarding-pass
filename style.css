@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background: #bb27a7;
+  width: 226px;
+  border-radius: 20px;
+}
+.header {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-inline: 14px;
+}
+.type {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.upcoming {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  padding-inline-start: 26px;
+  padding-inline-end: 71px;
+}
+
+.past {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  padding-inline-end: 42px;
+}
+
+.inner-container {
+  width: 225px;
+  background: #1e1e1e;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-block-start: 21px;
+}
+
+.boarding-pass {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  margin-inline-start: 12px;
+  margin-inline-end: 11px;
+  padding-inline-start: 17px;
+  padding-inline-end: 14px;
+}
+
+.flex-direction {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.font-700 {
+  font-weight: 700;
+}
+
+.font-300 {
+  font-weight: 300;
+  font-size: 8px;
+  line-height: 10px;
+  color: #bb27a7;
+}
+.row1 {
+  font-size: 20px;
+  color: #bb27a7;
+}
+.row2 {
+  font-size: 8px;
+  line-height: 10px;
+  color: #1e1e1e;
+}
+.bar {
+  width: 110px;
+  height: 5px;
+  background: #d9d9d9;
+}
