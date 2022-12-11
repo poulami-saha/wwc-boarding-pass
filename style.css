@@ -1,92 +1,93 @@
 .container {
   display: flex;
   flex-direction: column;
-  background: #bb27a7;
   width: 226px;
-  border-radius: 20px;
-}
-.header {
   font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
+}
+.pink-header {
+  background: #bb27a7;
+  border-radius: 20px 20px 0 0;
+  align-items: center;
   color: #ffffff;
-  padding-inline: 14px;
 }
 .type {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  text-align: center;
+}
+.header {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
 }
 .upcoming {
-  font-family: "Inter";
+  width: 113px;
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
-  color: #ffffff;
-  padding-inline-start: 26px;
-  padding-inline-end: 71px;
 }
-
 .past {
-  font-family: "Inter";
+  width: 113px;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
-  color: #ffffff;
-  padding-inline-end: 42px;
 }
-
-.inner-container {
-  width: 225px;
+.border-bottom {
+  border-bottom: 4px solid white;
+}
+.boarding-passes {
+  width: 226px;
   background: #1e1e1e;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  padding-block-start: 21px;
+  border-radius: 0 0 20px 20px;
 }
-
-.boarding-pass {
-  display: flex;
-  flex-direction: column;
-  background: #ffffff;
+.travel {
   border-radius: 20px;
-  margin-bottom: 15px;
-  margin-inline-start: 12px;
-  margin-inline-end: 11px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 21px;
+  margin-left: 12px;
+  margin-right: 11px;
   padding-inline-start: 17px;
-  padding-inline-end: 14px;
+  padding-inline-end: 12px;
+  padding-bottom: 7px;
+}
+.bottom {
+  margin-bottom: 15px;
+}
+.bottom2 {
+  margin-bottom: 88px;
+}
+.row1 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #bb27a7;
+  line-height: 0;
+}
+.row2 {
+  font-weight: 700;
+  color: #1e1e1e;
+}
+.row3 {
+  font-weight: 300;
+  color: #bb27a7;
+}
+.row4 {
+  font-weight: 700;
+  color: #1e1e1e;
+}
+.row5 {
+  font-weight: 300;
+  color: #bb27a7;
 }
 
-.flex-direction {
+.flex-details {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-
-.font-700 {
-  font-weight: 700;
-}
-
-.font-300 {
-  font-weight: 300;
+.font {
   font-size: 8px;
-  line-height: 10px;
-  color: #bb27a7;
-}
-.row1 {
-  font-size: 20px;
-  color: #bb27a7;
-}
-.row2 {
-  font-size: 8px;
-  line-height: 10px;
-  color: #1e1e1e;
-}
-.bar {
-  width: 110px;
-  height: 5px;
-  background: #d9d9d9;
+  line-height: 0;
 }
