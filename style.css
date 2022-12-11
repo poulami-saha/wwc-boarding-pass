@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   width: 226px;
-  font-family: "Inter";
+  font-family: sans-serif; /* font-family: "Inter" is not close to design */
 }
 .pink-header {
   background: #bb27a7;
